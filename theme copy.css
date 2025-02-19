@@ -1,0 +1,78 @@
+body {
+	--font-text-theme: "Interop"
+}
+
+.theme-light {
+  --background-primary: #d4d4d4;
+  --background-primary-alt: #bfbfc2;
+  --background-secondary: #bfbfc2;
+  --background-secondary-alt: #b2b2b8;
+  --background-modifier-border: #d4d4d4d7;
+  --background-modifier-form-field: #d4d4d4;
+  --background-modifier-form-field-highlighted: #b2b2b89f;
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+  --background-modifier-success: #62ca80cc;
+  --background-modifier-error: #c54848cc;
+  --background-modifier-error-rgb: 197, 72, 72;
+  --background-modifier-error-hover: #bb3e3e;
+  --background-modifier-cover: rgba(0, 0, 0, 0.1);
+  --text-normal: #141416;
+  --text-muted: #4f5153;
+  --text-faint: #4f515390;
+  --text-accent: #395a96;
+  --text-accent-hover: #7d87ac;
+  --text-on-accent: #d4d4d4;
+  --text-error: #bb3e3e;
+  --text-error-hover: #a04c4c;
+  --text-highlight-bg: #395a9640;
+  --text-highlight-bg-active: #395a9660;
+  --text-selection: #395a9640;
+  --text-selection-highlight: #395a9640;
+  --interactive-normal: #b2b2b89f;
+  --interactive-hover: #b2b2b89f;
+  --interactive-accent: #395a96;
+  --interactive-accent-rgb: 57, 90, 150;
+  --interactive-accent-hover: #395a9690;
+  --interactive-success: #36db75;
+  --scrollbar-active-thumb-bg: #939399;
+  --scrollbar-bg: #d4d4d4;
+  --scrollbar-thumb-bg: #93939967;
+  --highlight-mix-blend-mode: darken;
+  --accent-h: 216;
+  --accent-s: 45%;
+  --accent-l: 40%;
+  --link-color: #386f94;
+  --link-color-hover: #386f94;
+  --tag-color: #7d87ac;
+  --tag-background: #386f9434;
+  --tag-color-hover: #395a96;
+  --tag-background-hover: #395a9620;
+  --titlebar-text-color-focused: #141416;
+  --radius-s: 2px;
+  --radius-m: 4px;
+  --radius-l: 8px;
+  --radius-xl: 16px;
+  /* --font-monospace: 'Menlo', 'JetBrains Mono', 'Fira Code', 'Hack', monospace; */
+  /* --default-font: */
+
+  --custom-cyan:    #5aa098;
+  --custom-purple:  #6d628f;
+  --custom-yellow:  #bdaa9e;
+  --custom-blue:    #3772a0;
+  --custom-magenta: #976282;
+  --custom-red:     #b37c75;
+  
+  
+  --h1-color: var(--custom-red);
+  --h2-color: var(--custom-blue);
+  --h3-color: var(--custom-cyan);
+  --h4-color: var(--custom-magenta);
+  --h5-color: var(--custom-purple);
+  --h6-color: var(--custom-yellow);
+
+  --code-normal: var(--custom-magenta);
+  /* --code-size: ; */
+  /* --code-background: ; */
+	/* --code-border-color: ; */
+
+}
